@@ -33,7 +33,7 @@ setup(
     author_email='kellrott@gmail.com',
     url='https://github.com/bmeg/ophion',
     keywords=['client', 'graph', 'database'],  # arbitrary keywords
-    python_requires='>=2.6, <3',
+    python_requires='>=2.6, <4',
     install_requires=[],
     classifiers=[
         'Development Status :: 3 - Alpha',
