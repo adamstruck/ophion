@@ -34,7 +34,10 @@ setup(
     url='https://github.com/bmeg/ophion',
     keywords=['client', 'graph', 'database'],  # arbitrary keywords
     python_requires='>=2.6, <4',
-    install_requires=[],
+    install_requires=[
+        "future>=0.16.0",
+        "requests>=2.18.4"
+    ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
